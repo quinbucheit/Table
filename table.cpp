@@ -3,7 +3,7 @@
 *   rows and columns, modifying the contents of specified cells, extracting a sub-table
 *   and applying a specified operation to all values in the table.
 *
-*	  Implementation file for table class.
+*   Implementation file for table class.
 *
 *   Author: Quintin Bucheit
 */
