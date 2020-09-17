@@ -6,7 +6,7 @@ Technical details:
 1. Client code can construct a Table object by specifying the number of rows and columns, or by specifying a single integer if both dimensions are the same. 
 
 2. The stream insertion (leftshit) operator is overloaded so that client code can output a table in the same way that primitive type values are outputted; for example:  
-        Table<int> table(3, 5);
+    Table<int> table(3, 5);  
     ...  
     cout << table << endl;  
 Assume that cell (0, 0) is in the top-left corner of the table.
