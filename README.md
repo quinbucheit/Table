@@ -5,10 +5,10 @@ Technical details:
 
 1. Client code can construct a Table object by specifying the number of rows and columns, or by specifying a single integer if both dimensions are the same. 
 
-2. The stream insertion (leftshit) operator is overloaded so that client code can output a table in the same way that primitive type values are outputted; for example:
-    Table<int> table(3, 5);
-    ...
-    cout << table << endl;
+2. The stream insertion (leftshit) operator is overloaded so that client code can output a table in the same way that primitive type values are outputted; for example:  
+    Table<int> table(3, 5);  
+    ...  
+    cout << table << endl;  
 Assume that cell (0, 0) is in the top-left corner of the table.
   
 3. The function call operator is overloaded to take two integer arguements indicating the row and column of a cell in the table. The function returns a reference to the value at that position. This allows client code to modify table entries with a natural syntax that is similar to array bracket notation. For example, to assign the value 10 to the cell in row 3, column 4, one would write:
