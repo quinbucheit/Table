@@ -11,9 +11,9 @@ Technical details:
     cout << table << endl;  
 Assume that cell (0, 0) is in the top-left corner of the table.
   
-3. The function call operator is overloaded to take two integer arguements indicating the row and column of a cell in the table. The function returns a reference to the value at that position. This allows client code to modify table entries with a natural syntax that is similar to array bracket notation. For example, to assign the value 10 to the cell in row 3, column 4, one would write:
-    table(3, 4) = 10;
-This is equivalent to:
-    table.operator()(3, 4) = 10;
+3. The function call operator is overloaded to take two integer arguements indicating the row and column of a cell in the table. The function returns a reference to the value at that position. This allows client code to modify table entries with a natural syntax that is similar to array bracket notation. For example, to assign the value 10 to the cell in row 3, column 4, one would write:  
+    table(3, 4) = 10;  
+This is equivalent to:  
+    table.operator()(3, 4) = 10;  
     
 4.
